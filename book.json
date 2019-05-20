@@ -1,0 +1,27 @@
+{
+    "language": "zh",
+    "author": "聆播科技",
+    "pdf": {
+        "fontSize": 16
+    },
+    "links": {
+        "gitbook": false,
+        "sharing": {
+            "google": false,
+            "facebook": false,
+            "twitter": false,
+            "all": false
+        }
+    },
+    "plugins": [
+        "include-codeblock",
+        "favicon"
+    ],
+    "pluginsConfig": {
+        "favicon": {
+            "shortcut": "assets/images/favicon.ico",
+            "bookmark": "assets/images/favicon.ico",
+            "appleTouch": "assets/images/apple-touch-icon.png"
+        }
+    }
+}
