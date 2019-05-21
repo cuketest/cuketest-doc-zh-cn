@@ -6,7 +6,7 @@ const del = require('del');
 const fs = require('fs');
 const exec = require('child_process').exec;
 
-let leanrunnerBookDir = '../leanrunner-user-guide';
+let leanrunnerBookDir = '../leanrunner-doc-zh-cn';
 
 gulp.task('build-book', function(cb) {
     exec('gitbook build', function (err, stdout, stderr) {
