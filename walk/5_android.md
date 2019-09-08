@@ -6,13 +6,11 @@
 * 掌握Android手机自动化测试流程
 
 ### 环境
-* 开发环境：Windows，Android 模拟器或手机，appium
+* 前提条件
+   * 配置Android SDK环境
+   * 安装Appium
+   * 准备Android手机或者模拟器
 * 被测应用：Appium自带的应用API Demo
-
-### 前提条件
-* 配置Android SDK环境
-* 安装appium
-* 准备Android手机或者模拟器
 
 ### 操作步骤
 
@@ -23,7 +21,7 @@
 
 ![](assets_android/newproject.png)
 
-CukeTest会自动创建一个基于手机端自动化测试脚本模板，在项目目录下执行 `npm install` 安装项目依赖。
+CukeTest会自动创建一个手机自动化测试脚本。要成功运行这个项目，请在项目目录下执行 `npm install` 命令安装项目依赖。
 
 #### 准备被测应用
 
@@ -39,7 +37,7 @@ CukeTest会自动创建一个基于手机端自动化测试脚本模板，在项
 
 对应的【文本】视图内容为：
 
-```javascript
+```gherkin
 # language:  zh-CN
 功能: appim demo
 使用CukeTest以BDD的方式来做手机端的自动化测试样例。
@@ -51,6 +49,7 @@ CukeTest会自动创建一个基于手机端自动化测试脚本模板，在项
 ```
 
 #### 完善自动化测试代码
+
 1. 获取设备串号
 
   ```powershell
@@ -60,20 +59,22 @@ CukeTest会自动创建一个基于手机端自动化测试脚本模板，在项
   Y15QKCPH278J4   device
   ```
   
-2. 获取应用pacakage和启动的activity
+2. 获取应用package并启动activity
   命令行输入 `adb logcat | findstr START `  手动打开 __Demo API__ 应用，从日志中获取。
   ```basic
-  .....
+  
+  ...
   [android.intent.category.LAUNCHER] flg=0x10200000 cmp=io.appium.android.apis/.ApiDemos bnds=[16,640][188,832] (has extras)} from uid
 10013 from pid 1943 on display 0 from pid 1943
-  .....
+  ...
+
   ```
 
   取到app的package 和 activity 为 io.appium.android.apis/.ApiDemos
 
 3. 修改driver定义代码
 
-  打开 `support\get_driver.js` ,分别修改 `devicesName`,appPackage, appActivity的内容。修改完成后为:
+  打开 `support\get_driver.js`，分别修改 `devicesName`，appPackage，appActivity的内容。修改完成后为:
   
   ```javascript
   const webdriverio = require('webdriverio');
@@ -104,7 +105,7 @@ CukeTest会自动创建一个基于手机端自动化测试脚本模板，在项
   ```
 
 4. 自动化测试代码
-  打开`step_definations\definitions1.js `文件，点击 step 后面的灰色按钮，生成自动化脚本样例。
+  打开`features/feature1.feature`文件，点击 step 后面的灰色按钮，生成自动化脚本样例。
 
   ![](assets_android/script.png)
 

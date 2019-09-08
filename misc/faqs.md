@@ -60,6 +60,11 @@
 * 在[github](https://github.com/cuketest/demos/issues)上报告你的问题。
 * 访问[联系我们](http://www.leanpro.cn/contactus)页面，提交您的问题和联系方式
 
+<a id="chromedriver"></a>
+#### Q: 下载的ChromeDriver驱动如何保持跟Chrome的版本一致？
+
+因为chrome每过一段时间就会更新一次，相应的你也要更新驱动。如果保持一致可以看 http://npm.taobao.org/mirrors/chromedriver  每个版本里面都有一个notes.txt文件，上面有对应的版本信息可以参考。
+
 <a id="sqllite"></a>
 #### Q: 在CukeTest中如何使用SQLLite3?
 

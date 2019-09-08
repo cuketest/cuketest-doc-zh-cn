@@ -4,6 +4,7 @@
   "description": "CukeTest document",
   "main": "gulpfile.js",
   "dependencies": {
+    "express": "^4.17.1",
     "gitbook-plugin-favicon": "^0.0.2",
     "gitbook-plugin-include-codeblock": "^3.2.2"
   },
