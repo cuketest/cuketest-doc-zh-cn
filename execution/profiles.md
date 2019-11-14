@@ -35,6 +35,8 @@
 
 `"simple"`格式的报告将仍然保存为html文件。 `"simple"`报告的内容与使用缺省参数从命令行运行Cucumber.js具有相同的内容和着色。
 
+>注意：你可以选择输出多种格式的报表例如html+json，或simple+json，但是不能选择html+simple，因为simple也是一种html格式的报表。
+
 ## "快速失败" (Fast-Fail)
 
 这个开关打开时，会在第一个异常发生时停止运行。

@@ -1,11 +1,10 @@
 # 目录
 
-* [行为驱动测试简介](/bdd/index.md)
+* [CukeTest 概述](/bdd/index.md)
     * [关于本书](/readme-origin.md)
     * [为什么要行为驱动测试](/bdd/why_bdd.md)
     * [Cucumber.js如何工作](/bdd/how_cucumber_works.md)
-* [CukeTest 概述](/overview.md)
-    * [CukeTest 概述](/overview.md)
+    * [CukeTest 简介](/overview.md)
     * [CukeTest 演示脚本](/misc/demos.md)
 
 * [剧本文件编辑](/features/index.md)
@@ -50,8 +49,13 @@
     * [描述模式](/node_api/descriptive_mode.md)
     * [图像字符识别(OCR)](/node_api/ocr.md)
     * [图像操作API](/node_api/image.md)
-    * [Util(常用工具函数）](/node_api/util.md)
+    * [Util(常用工具函数)](/node_api/util.md)
+    * [互操作API库](/shared/orchestrate.md)
+        * [数据库访问](/shared/database.md)
+        * [Excel的读取](/shared/excel.md)
+    * [离线环境安装npm包](/shared/npm_offline.md)
     * [QT自动化常见问题](/shared/qt_faq.md)
+        * [Qt中Table的自动化](/shared/qt/qt_table.md)
     * [Windows应用自动化常见问题](/shared/win_faq.md)
 
 

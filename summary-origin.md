@@ -1,11 +1,10 @@
 # 目录
 
-* [行为驱动测试简介](/bdd/index.md)
+* [CukeTest 概述](/bdd/index.md)
     * [关于本书](/readme-origin.md)
     * [为什么要行为驱动测试](/bdd/why_bdd.md)
     * [Cucumber.js如何工作](/bdd/how_cucumber_works.md)
-* [CukeTest 概述](/overview.md)
-    * [CukeTest 概述](/overview.md)
+    * [CukeTest 简介](/overview.md)
     * [CukeTest 演示脚本](/misc/demos.md)
 
 * [剧本文件编辑](/features/index.md)

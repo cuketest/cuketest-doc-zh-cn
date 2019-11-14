@@ -1,4 +1,4 @@
-# CukeTest概述
+# CukeTest简介
 
 CukeTest是开发测试自动化脚本的一个灵巧方便的工具。用户可以使用此工具快速创建BDD（行为驱动开发, Behavior Driven Development）测试脚本。它集成了[Cucumber](/cucumber/concepts.md#cucumber)框架和JavaScript，可视化编辑，调试功能，并有多个html报告模板可供选择。同时它能够实现了各种类型应用的自动化，包括Web、Windows、移动设备、API等等。
 

@@ -19,7 +19,8 @@ gulp.task('build-book', function(cb) {
 gulp.task('clean-up', function() {
     return del([
         `./node_api/**/*`,
-        './model_mgr/**/*'
+        './model_mgr/**/*',
+        './shared/**/*'
       ]);
 });
 
@@ -31,8 +32,23 @@ gulp.task('remove-md-from-book', function() {
         './_book/package.json',
         './_book/package-lock.json',
         './_book/cover.jpg',
-        './_book/cover_bdd.jpg'
+        './_book/cover_bdd.jpg',
+        './_book/book-offline.json',
+        './_book/book-online.json',
+        './_book/preview.js'
       ]);
+})
+
+gulp.task('prepare-book-offline', function() {
+    gulp.src([`./book-offline.json`])
+    .pipe(rename('book.json'))
+    .pipe(gulp.dest('./'));
+})
+
+gulp.task('prepare-book-online', function() {
+    gulp.src([`./book-online.json`])
+    .pipe(rename('book.json'))
+    .pipe(gulp.dest('./'));
 })
 
 gulp.task('copy-leanrunner', function() {
@@ -54,4 +70,5 @@ gulp.task('merge-toc', function() {
 
 gulp.task('prepare', gulpSequence('clean-up', 'copy-leanrunner', 'merge-toc'));
 
-gulp.task('build', gulpSequence('prepare', 'build-book', 'remove-md-from-book'))
+gulp.task('build', gulpSequence('prepare', 'prepare-book-offline', 'build-book', 'remove-md-from-book'));
+gulp.task('build-online', gulpSequence('prepare', 'prepare-book-online', 'build-book', 'remove-md-from-book'));

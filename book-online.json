@@ -1,0 +1,37 @@
+{
+    "language": "zh",
+    "author": "聆播科技",
+    "pdf": {
+        "fontSize": 16
+    },
+    "links": {
+        "gitbook": false,
+        "sharing": {
+            "google": false,
+            "facebook": false,
+            "twitter": false,
+            "all": false
+        }
+    },
+    "plugins": [
+        "include-codeblock",
+        "favicon",
+        "gtalk"
+    ],
+    "pluginsConfig": {
+        "favicon": {
+            "shortcut": "assets/images/favicon.ico",
+            "bookmark": "assets/images/favicon.ico",
+            "appleTouch": "assets/images/apple-touch-icon.png"
+        },
+        "gtalk": {
+            "clientID": "dd23121b7b7ac8140bcc",
+            "clientSecret": "b62d01b35c5a689c45886b18eb436a0e1b7ec7c7",
+            "repo": "cuketest-doc-zh-cn",
+            "owner": "cuketest",
+            "admin": ["cuketest","takeToDreamLand"],
+            "distractionFreeMode": false,
+            "language": "zh-CN"
+        }
+    }
+}
