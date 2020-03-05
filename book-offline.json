@@ -1,5 +1,5 @@
 {
-    "language": "zh",
+    "language": "zh-hans",
     "author": "聆播科技",
     "pdf": {
         "fontSize": 16
@@ -23,5 +23,8 @@
             "bookmark": "assets/images/favicon.ico",
             "appleTouch": "assets/images/apple-touch-icon.png"
         }
+    },
+    "styles": {
+        "website": "styles/website.css"
     }
 }

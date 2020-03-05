@@ -40,9 +40,9 @@ Linux | Pro、Enterprise
 每个项目的用量  | Lite （简易版）| Pro（专业版） | Enterprise（企业版）
 ---|---|---|---
 场景管理 | 30个 | Unlimited | Unlimited
-内置桌面自动化库  |  一定次数 | 更多调用 | Unlimited
-OCR  | 一定次数 | 更多调用 | Unlimited
-图像操作 | 一定次数 | 更多调用 | Unlimited
+内置桌面自动化库  |  100 | 300 | Unlimited
+OCR  | 30 | 100 | Unlimited
+图像自动化操作 | 30 | 100 | Unlimited
 视频录制 | 15分钟 | Unlimited | Unlimited
 许可 | 免费 | 单用户许可 | 单用户许可、并发许可证
 

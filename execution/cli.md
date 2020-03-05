@@ -44,13 +44,16 @@
    * `cuke --run` 
    
       以缺省的配置运行项目，输出格式为文本格式
+
    * `cuke --run --format html` 
   
       运行项目并生成html格式的报表
+
    * `cuke --run --format html --video`
    
       生成html报表，并录制视频
-   * `cuke -r -failfast -t "@backend or @ui" 
+      
+   * `cuke -r -failfast -t "@backend or @ui`
    
       运行带@backend 或 @ui标签的场景，如果有一个场景失败则立刻停止运行
       

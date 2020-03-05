@@ -41,10 +41,11 @@
     * [虚拟控件](//model_mgr/virtual_control.md)
     * [代码生成及运行](/model_mgr/code_generation.md)
 
-* [Node.js自动化API](/node_api/node.md)
+* [自动化API](/node_api/index.md)
     * [基本操作API](/node_api/node_basic.md)
     * [对象操作API](/node_api/node_operations.md)
     * [获取对象API](/node_api/node_container.md)
+    * [Java应用自动化](/node_api/java/java_basic.md)
     * [虚拟控件API](/node_api/virtual_api.md)
     * [描述模式](/node_api/descriptive_mode.md)
     * [图像字符识别(OCR)](/node_api/ocr.md)
@@ -53,10 +54,14 @@
     * [互操作API库](/shared/orchestrate.md)
         * [数据库访问](/shared/database.md)
         * [Excel的读取](/shared/excel.md)
+        * [Pdf的读取](/shared/pdf.md)
     * [离线环境安装npm包](/shared/npm_offline.md)
-    * [QT自动化常见问题](/shared/qt_faq.md)
+    * [自动化常见问题](/shared/auto_faq.md)
+        * [Windows应用自动化常见问题](/shared/win_faq.md)
+        * [Windows文本框控件的输入](/shared/howto_edit_set.md)
+        * [QT自动化常见问题](/shared/qt_faq.md)
         * [Qt中Table的自动化](/shared/qt/qt_table.md)
-    * [Windows应用自动化常见问题](/shared/win_faq.md)
+        * [无法识别Qt应用的控件类型](/shared/qt/qt_accessible.md)
 
 
 * [其它主题](/misc/index.md)
@@ -113,7 +118,6 @@
         * [Cucumber Expressions\(Cucumber表达式\)](/cucumber/concepts.md#cucumber_expression)
         * [Cucumber Regular Expression\(Cucumber正则表达式\)](/cucumber/concepts.md#regex)
 
-* [附录](/misc/shortcuts.md)
-
 * [快捷键](/misc/shortcuts.md)
 * [输入键对应表](/misc/key_codes.md)
+* [错误代码及解释](/shared/error_codes.md)

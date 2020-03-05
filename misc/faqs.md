@@ -63,7 +63,7 @@
 <a id="chromedriver"></a>
 #### Q: 下载的ChromeDriver驱动如何保持跟Chrome的版本一致？
 
-因为chrome每过一段时间就会更新一次，相应的你也要更新驱动。如果保持一致可以看 http://npm.taobao.org/mirrors/chromedriver  每个版本里面都有一个notes.txt文件，上面有对应的版本信息可以参考。
+**A**: 因为chrome每过一段时间就会更新一次，相应的你也要更新驱动。如果保持一致可以看 http://npm.taobao.org/mirrors/chromedriver  每个版本里面都有一个notes.txt文件，上面有对应的版本信息可以参考。
 
 <a id="sqllite"></a>
 #### Q: 在CukeTest中如何使用SQLLite3?
@@ -74,7 +74,7 @@
 
 [https://stackoverflow.com/questions/32504307/how-to-use-sqlite3-module-with-electron](https://stackoverflow.com/questions/32504307/how-to-use-sqlite3-module-with-electron)
 
-一个简单的方法是从[https://github.com/zhangxy1035/electron_sqlite3](https://github.com/zhangxy1035/electron_sqlite3)直接下载针对Electron的二进制文件并替换到相应目录里，针对CukeTest是Electron 2.0 32位版本。
+一个简单的方法是从[https://github.com/zhangxy1035/electron_sqlite3](https://github.com/zhangxy1035/electron_sqlite3)直接下载针对Electron的二进制文件并替换到相应目录里，针对CukeTest是Electron 4.2.10 32位版本。
 
 <a id="fastfail"></a>
 #### Q: 我的一个剧本有几十个场景，假如前面几个场景执行失败，能否快速跳过，不用运行这个剧本里之后的场景

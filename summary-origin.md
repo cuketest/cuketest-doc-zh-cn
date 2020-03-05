@@ -89,7 +89,6 @@
         * [Cucumber Expressions\(Cucumber表达式\)](/cucumber/concepts.md#cucumber_expression)
         * [Cucumber Regular Expression\(Cucumber正则表达式\)](/cucumber/concepts.md#regex)
 
-* [附录](/misc/shortcuts.md)
-
 * [快捷键](/misc/shortcuts.md)
 * [输入键对应表](/misc/key_codes.md)
+* [错误代码及解释](/shared/error_codes.md)
