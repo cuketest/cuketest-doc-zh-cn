@@ -130,7 +130,7 @@
 
 ### 7. 将测试脚本改为数据驱动
 
-许多API测试需要将不同的测试参数传递给API，以验证它是否适用于所有这些参数。为了使这个测试成为数据驱动，我们可以先将它转换为[Scenario Outline](/ cucumber / concepts.md＃outline)。 以下是步骤：
+许多API测试需要将不同的测试参数传递给API，以验证它是否适用于所有这些参数。为了使这个测试成为数据驱动，我们可以先将它转换为[Scenario Outline](/cucumber/concepts.md＃outline)。 以下是步骤：
 
 1. 右键单击方案标题，选择“更改场景类型”=>“方案大纲”：
 

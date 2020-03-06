@@ -1,5 +1,4 @@
 const gulp = require('gulp');
-const gulpSequence = require('gulp-sequence');
 const replace = require('gulp-replace');
 const rename = require('gulp-rename');
 const del = require('del');
@@ -40,19 +39,19 @@ gulp.task('remove-md-from-book', function() {
 })
 
 gulp.task('prepare-book-offline', function() {
-    gulp.src([`./book-offline.json`])
+    return gulp.src([`./book-offline.json`])
     .pipe(rename('book.json'))
     .pipe(gulp.dest('./'));
 })
 
 gulp.task('prepare-book-online', function() {
-    gulp.src([`./book-online.json`])
+    return gulp.src([`./book-online.json`])
     .pipe(rename('book.json'))
     .pipe(gulp.dest('./'));
 })
 
 gulp.task('copy-leanrunner', function() {
-    gulp.src([`${leanrunnerBookDir}/*node_api/**/*`,
+    return gulp.src([`${leanrunnerBookDir}/*node_api/**/*`,
         `${leanrunnerBookDir}/*model_mgr/**/*`,
         `${leanrunnerBookDir}/*shared/**/*`
         ])
@@ -62,13 +61,13 @@ gulp.task('copy-leanrunner', function() {
 gulp.task('merge-toc', function() {
     //read content
     let mmToc = fs.readFileSync(`${leanrunnerBookDir}/model_manager_node_api.md`);
-    gulp.src('./summary-origin.md')
+    return gulp.src('./summary-origin.md')
     .pipe(replace('*model_manager_node_api*', mmToc))
     .pipe(rename('summary.md'))
     .pipe(gulp.dest('./'));
 })
 
-gulp.task('prepare', gulpSequence('clean-up', 'copy-leanrunner', 'merge-toc'));
+gulp.task('prepare', gulp.series('clean-up', 'copy-leanrunner', 'merge-toc'));
 
-gulp.task('build', gulpSequence('prepare', 'prepare-book-offline', 'build-book', 'remove-md-from-book'));
-gulp.task('build-online', gulpSequence('prepare', 'prepare-book-online', 'build-book', 'remove-md-from-book'));
+gulp.task('build', gulp.series('prepare', 'prepare-book-offline', 'build-book', 'remove-md-from-book'));
+gulp.task('build-online', gulp.series('prepare', 'prepare-book-online', 'build-book', 'remove-md-from-book'));

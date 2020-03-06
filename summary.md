@@ -33,6 +33,13 @@
     * [执行报告](/execution/reports.md)
     * [命令行界面](/execution/cli.md)
 
+* [Qt自动化](/qt/index.md)
+
+    * [QT自动化常见问题](/qt/qt_faq.md)
+    * [HOWTO：识别Qt应用的控件类型](/qt/qt_accessible.md)
+    * [Qt中Table的自动化](/qt/qt_table.md)
+    * [演练：操作Qt应用中的表格](/qt/walk/walk_qt_table.md)
+
 * [模型管理器](/model_mgr/index.md)
     * [模型管理器(Model Manager)概述](/model_mgr/model_manager.md)
     * [对象模型管理器配置](/model_mgr/model_options.md)
@@ -55,13 +62,11 @@
         * [数据库访问](/shared/database.md)
         * [Excel的读取](/shared/excel.md)
         * [Pdf的读取](/shared/pdf.md)
+        * [发送邮件](/shared/mailer.md)
     * [离线环境安装npm包](/shared/npm_offline.md)
     * [自动化常见问题](/shared/auto_faq.md)
         * [Windows应用自动化常见问题](/shared/win_faq.md)
         * [Windows文本框控件的输入](/shared/howto_edit_set.md)
-        * [QT自动化常见问题](/shared/qt_faq.md)
-        * [Qt中Table的自动化](/shared/qt/qt_table.md)
-        * [无法识别Qt应用的控件类型](/shared/qt/qt_accessible.md)
 
 
 * [其它主题](/misc/index.md)
@@ -120,4 +125,5 @@
 
 * [快捷键](/misc/shortcuts.md)
 * [输入键对应表](/misc/key_codes.md)
+* [专业术语](/misc/glossary.md)
 * [错误代码及解释](/shared/error_codes.md)

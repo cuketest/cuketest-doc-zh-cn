@@ -33,6 +33,13 @@
     * [执行报告](/execution/reports.md)
     * [命令行界面](/execution/cli.md)
 
+* [Qt自动化](/qt/index.md)
+
+    * [QT自动化常见问题](/qt/qt_faq.md)
+    * [HOWTO：识别Qt应用的控件类型](/qt/qt_accessible.md)
+    * [Qt中Table的自动化](/qt/qt_table.md)
+    * [演练：操作Qt应用中的表格](/qt/walk/walk_qt_table.md)
+
 *model_manager_node_api*
 
 * [其它主题](/misc/index.md)
@@ -89,6 +96,7 @@
         * [Cucumber Expressions\(Cucumber表达式\)](/cucumber/concepts.md#cucumber_expression)
         * [Cucumber Regular Expression\(Cucumber正则表达式\)](/cucumber/concepts.md#regex)
 
-* [快捷键](/misc/shortcuts.md)
-* [输入键对应表](/misc/key_codes.md)
-* [错误代码及解释](/shared/error_codes.md)
+* [附录：CukeTest快捷键](/misc/shortcuts.md)
+* [附录：输入键对应表](/misc/key_codes.md)
+* [附录：专业术语](/misc/glossary.md)
+* [附录：错误代码及解释](/shared/error_codes.md)
