@@ -36,9 +36,11 @@
 * [Qt自动化](/qt/index.md)
 
     * [QT自动化常见问题](/qt/qt_faq.md)
-    * [HOWTO：识别Qt应用的控件类型](/qt/qt_accessible.md)
-    * [Qt中Table的自动化](/qt/qt_table.md)
-    * [演练：操作Qt应用中的表格](/qt/walk/walk_qt_table.md)
+    * [HOWTO：识别Qt应用的控件类型](/qt/howto/qt_accessible.md)
+    * [HOWTO：Qt中Table的自动化](/qt/howto/qt_table.md)
+    * [HOWTO：Windows 7下Qt中Table的自动化](/qt/howto/qt_win7_table.md)
+    * [演练：操作Qt应用中的Table](/qt/walk/walk_qt_table.md)
+    * [演练：操作Qt应用中的ListView](/qt/walk/walk_qt_list.md)
 
 *model_manager_node_api*
 

@@ -123,7 +123,7 @@
         * [Cucumber Expressions\(Cucumber表达式\)](/cucumber/concepts.md#cucumber_expression)
         * [Cucumber Regular Expression\(Cucumber正则表达式\)](/cucumber/concepts.md#regex)
 
-* [快捷键](/misc/shortcuts.md)
-* [输入键对应表](/misc/key_codes.md)
-* [专业术语](/misc/glossary.md)
-* [错误代码及解释](/shared/error_codes.md)
+* [附录：CukeTest快捷键](/misc/shortcuts.md)
+* [附录：输入键对应表](/misc/key_codes.md)
+* [附录：专业术语](/misc/glossary.md)
+* [附录：错误代码及解释](/shared/error_codes.md)

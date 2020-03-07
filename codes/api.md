@@ -4,10 +4,10 @@ CukeTest中提供了多个内置的npm包，其中的各种API实现了自动化
 
 名称 | 功能 | Windows | Mac | Linux
 ---|---|---|---|---
-cuketest | 操作CukeTest自己| 支持 | 支持 | 支持 |
-leanpro.common | 常用工具函数 | 支持 | 支持 | 支持 |
-leanpro.win | Windows自动化库 | 支持 | 不支持 | 不支持 |
-leanpro.visual | 图像OCR库 | 支持 | 部分支持 | 支持 |
+cuketest | 操作CukeTest自己| 支持 | 支持 | 支持
+leanpro.common | 常用工具函数 | 支持 | 支持 | 支持
+leanpro.win | Windows自动化库 | 支持 | 不支持 | 不支持
+leanpro.visual | 图像OCR库 | 支持 | 部分支持 | 支持
 
 
 ### "cuketest"包

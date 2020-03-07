@@ -1,6 +1,6 @@
 # 附录：输入键对应表
 
-使用`pressKeys`（或C＃中的PressKeys）将键击和击键组合发送到活动应用程序。
+使用`pressKeys`将键击和击键组合发送到活动应用程序。
 
 每个键由一个或多个字符表示。要指定单个键盘字符，请使用字符本身。例如，要表示字母A，请将字符串“A”传递给方法。 要表示多个字符，请将这些字符连起来作为字符串。例如，要表示字母A，B和C，请将参数指定为“ABC”。
 
@@ -16,7 +16,7 @@ CAPS LOCK | {CAPSLOCK}
 DEL or DELETE  |  {DELETE} or {DEL}
 DOWN ARROW | {DOWN}
 END | {END}
-ENTER | {ENTER}or ~
+ENTER | {ENTER} or ~
 ESC | {ESC}
 HELP | {HELP}
 HOME | {HOME}

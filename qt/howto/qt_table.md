@@ -1,4 +1,4 @@
-# Qt中Table的自动化
+# HOWTO: Qt中Table的自动化
 
 这里会介绍Qt中Table控件的自动化。我们以Qt Demo提供的SpreadSheet为例进行讲解。
 ![iamge](assets/table/spread_sheet_gui.png)  
