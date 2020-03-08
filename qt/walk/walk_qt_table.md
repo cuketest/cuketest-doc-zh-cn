@@ -1,4 +1,4 @@
-# 演练：操作Qt应用中的Table
+# 演练: 操作Qt应用中的Table
 > 针对Qt中的TableView组件的自动化
 
 ## 背景
