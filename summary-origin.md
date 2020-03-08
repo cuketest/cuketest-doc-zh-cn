@@ -40,7 +40,7 @@
     * [HOWTO：Qt中Table的自动化](/qt/howto/qt_table.md)
     * [HOWTO：Windows 7下Qt中Table的自动化](/qt/howto/qt_win7_table.md)
     * [演练：操作Qt应用中的Table](/qt/walk/walk_qt_table.md)
-    * [演练：操作Qt应用中的ListView](/qt/walk/walk_qt_list.md)
+    * [演练：操作Qt应用中的QListView](/qt/walk/walk_qt_list.md)
 
 *model_manager_node_api*
 
@@ -66,6 +66,7 @@
     * [演练：创建Windows自动化测试](/walk/4_windows.md)
     * [演练：创建Android自动化测试](/walk/5_android.md)
     * [演练：图片的比较](/walk/6_image.md)
+    * [HOWTO: Chrome带配置项启动](/web/howto/chrome_options.md)
 
 * [Cucumber.js参考](/cucumber/index.md)
 
