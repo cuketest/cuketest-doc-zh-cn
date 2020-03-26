@@ -6,6 +6,7 @@
     * [Cucumber.js如何工作](/bdd/how_cucumber_works.md)
     * [CukeTest 简介](/overview.md)
     * [CukeTest 演示脚本](/misc/demos.md)
+    * [在Linux上安装CukeTest](/misc/install_linux.md)
 
 * [剧本文件编辑](/features/index.md)
 
@@ -36,9 +37,12 @@
 * [Qt自动化](/qt/index.md)
 
     * [QT自动化常见问题](/qt/qt_faq.md)
-    * [HOWTO：识别Qt应用的控件类型](/qt/qt_accessible.md)
-    * [Qt中Table的自动化](/qt/qt_table.md)
-    * [演练：操作Qt应用中的表格](/qt/walk/walk_qt_table.md)
+    * [HOWTO: Qt文本框类似控件的输入](/qt/howto/qt_edit_set.md)
+    * [HOWTO: 识别Qt应用的控件类型](/qt/howto/qt_accessible.md)
+    * [HOWTO: Qt中Table的自动化](/qt/howto/qt_table.md)
+    * [HOWTO: Windows 7下Qt中Table的自动化](/qt/howto/qt_win7_table.md)
+    * [演练: 操作Qt应用中的Table](/qt/walk/walk_qt_table.md)
+    * [演练: 操作Qt应用中的QListView](/qt/walk/walk_qt_list.md)
 
 * [模型管理器](/model_mgr/index.md)
     * [模型管理器(Model Manager)概述](/model_mgr/model_manager.md)
@@ -51,6 +55,7 @@
 * [自动化API](/node_api/index.md)
     * [基本操作API](/node_api/node_basic.md)
     * [对象操作API](/node_api/node_operations.md)
+      * [模拟按键输入pressKeys方法](/node_api/pressKeys.md)
     * [获取对象API](/node_api/node_container.md)
     * [Java应用自动化](/node_api/java/java_basic.md)
     * [虚拟控件API](/node_api/virtual_api.md)
@@ -66,7 +71,6 @@
     * [离线环境安装npm包](/shared/npm_offline.md)
     * [自动化常见问题](/shared/auto_faq.md)
         * [Windows应用自动化常见问题](/shared/win_faq.md)
-        * [Windows文本框控件的输入](/shared/howto_edit_set.md)
 
 
 * [其它主题](/misc/index.md)
@@ -91,6 +95,7 @@
     * [演练：创建Windows自动化测试](/walk/4_windows.md)
     * [演练：创建Android自动化测试](/walk/5_android.md)
     * [演练：图片的比较](/walk/6_image.md)
+    * [HOWTO: Chrome带配置项启动](/web/howto/chrome_options.md)
 
 * [Cucumber.js参考](/cucumber/index.md)
 

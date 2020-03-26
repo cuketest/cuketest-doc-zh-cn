@@ -1,6 +1,6 @@
 # HOWTO: Windows 7下Qt中Table的自动化
 
-Win7和Win10相比，系统Accessbility的支持的控件种类要少。比如这次需要识别的`DataItem`控件类型，在Win7中就是无法识别，会被识别为`Custom`控件类型，即当成自定义控件来处理。这就会导致其与用于表示数据行的`Custom`控件不易区分。因此对于Win7系统，之前文章中的（[HOWTO: Qt中Table的自动化](qt_table.md)）介绍的先获取数据行再根据数据所在的列数取到目标单元格的方式不再适用。本文介绍的另一种方法可在Win7下自动化Qt的Table控件。
+Win7和Win10相比，系统Accessbility的支持的控件种类要少。比如这次需要识别的`DataItem`控件类型，在Win7中就是无法识别，会被识别为`Custom`控件类型，即当成自定义控件来处理。这就会导致其与用于表示数据行的`Custom`控件不易区分。因此对于Win7系统，之前文章中的[HOWTO: Qt中Table的自动化](qt_table.md)介绍的先获取数据行再根据数据所在的列数取到目标单元格的方式不再适用。本文介绍的另一种方法可在Win7下自动化Qt的Table控件。
 
 这里使用的仍然是Qt提供的SpreadSheet Demo。碍于篇幅，这里仅介绍Qt 4.x版本中的应用，但这并不代表Qt 5.x中无法进行自动化。事实上由于本篇文章使用的方法原理与[HOWTO: Qt中Table的自动化](qt_table.md)一致，对表格结构要求并不严格，因此也不用对Qt的版本进行严格的区分。
 

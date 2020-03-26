@@ -4,6 +4,9 @@
     "pdf": {
         "fontSize": 16
     },
+    "variables": {
+        "product": "CukeTest"
+    },
     "links": {
         "gitbook": false,
         "sharing": {
