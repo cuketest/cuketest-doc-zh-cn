@@ -69,6 +69,7 @@
     * [演练：创建Android自动化测试](/walk/5_android.md)
     * [演练：图片的比较](/walk/6_image.md)
     * [HOWTO: Chrome带配置项启动](/web/howto/chrome_options.md)
+    * [HOWTO: 使用CukeTest进行API自动化测试](/web/howto/api_test.md)
 
 * [Cucumber.js参考](/cucumber/index.md)
 
