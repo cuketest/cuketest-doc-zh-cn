@@ -9,3 +9,4 @@
 * [HOWTO: Windows 7下Qt中Table的自动化](howto/qt_win7_table.md)
 * [演练: 操作Qt应用中的Table](walk/walk_qt_table.md)
 * [演练: 操作Qt应用中的QListView](walk/walk_qt_list.md)
+* [演练：操作Qt应用中的树——TreeView](walk/walk_qt_tree.md)

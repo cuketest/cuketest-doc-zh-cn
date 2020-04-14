@@ -5,7 +5,8 @@
         "fontSize": 16
     },
     "variables": {
-        "product": "CukeTest"
+        "product": "CukeTest",
+        "test_object": "测试对象"
     },
     "links": {
         "gitbook": false,

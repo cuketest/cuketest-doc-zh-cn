@@ -34,6 +34,8 @@
     * [执行报告](/execution/reports.md)
     * [命令行界面](/execution/cli.md)
 
+*model_manager_node_api*
+
 * [Qt自动化](/qt/index.md)
 
     * [QT自动化常见问题](/qt/qt_faq.md)
@@ -43,8 +45,7 @@
     * [HOWTO: Windows 7下Qt中Table的自动化](/qt/howto/qt_win7_table.md)
     * [演练: 操作Qt应用中的Table](/qt/walk/walk_qt_table.md)
     * [演练: 操作Qt应用中的QListView](/qt/walk/walk_qt_list.md)
-
-*model_manager_node_api*
+    * [演练：操作Qt应用中的树——TreeView](/qt/walk/walk_qt_tree.md)
 
 * [其它主题](/misc/index.md)
 
